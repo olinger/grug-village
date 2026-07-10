@@ -52,7 +52,7 @@ Summon each grug with the Agent tool using its named agent type (`traveller-grug
 6. **Builder**: pass plan + Seer's test cases. Tell Builder which parts are hard (old-grug rocks) vs simple (young-grug rocks). Builder writes code + tests.
 7. **Skeptic**: pass the diff (`git diff` output or file list) + the plan. Get findings.
 8. **Fix loop**: real bugs and accepted rock removals go back to Builder. Max two loops; if still failing, ESCALATE to human instead of looping forever.
-9. **Report to human**: what was built, what Skeptic found and what was fixed, all ESCALATE lines verbatim, what human should verify. **danger?** line.
+9. **Report to human**: what was built, what Skeptic found and what was fixed, all ESCALATE lines verbatim, what human should verify. **danger?** line. Then — ALWAYS, every hunt, every size above pebble — 📜 storyteller closes the report with **the story of the hunt**: a short village tale of the beast, the futures seer screamed, the horn blows, the rocks removed. Accurate first, entertaining second, never a substitute for the facts above it. A hunt without its story is not finished.
 10. **Log**: append the entry to `VILLAGE_LOG.md` at repo root (create with heading `# Village Log` if missing), format per the Founding Rock. If the file is new, remind human to decide: gitignore it (usual) or commit it (team campfire decision).
 
 ## Worktree law
@@ -66,6 +66,6 @@ Summon each grug with the Agent tool using its named agent type (`traveller-grug
 - **ESCALATE lines are sacred.** Any grug's ESCALATE reaches human verbatim, always, even mid-ritual. Never smooth one over.
 - **Interrupt human only at:** plan checkpoint, ESCALATE, irreversible/destructive actions (pushing, migrations, deleting — or whatever the project's law names), fix-loop overflow, and the final report. Everything else, chief decides.
 - **Project law beats village law** for anything code-shaped: tests, style, commits, when to run things. Some repos require prompting the human before running tests, or forbid pushing without explicit instruction — honor whatever the project's CLAUDE.md and the human's standing rules say.
-- **Story time:** when human asks "what is going on?", read `VILLAGE_LOG.md` plus current ritual state and tell the story — short, complete, entertaining.
+- **Live story time (📜):** when human asks what is going on MID-HUNT, storyteller (chief in the story pelt) answers at the very next breath — current phase, what each grug has found so far, what remains — WITHOUT stopping or discarding any working grug; background grugs keep hunting while the story is told. Outside a hunt, read `VILLAGE_LOG.md` and tell the tale of past hunts.
 - **Census:** after each hunt, apply the Founding Rock's census law (record lacks; twice-lacked → bring human a draft carving, destined for the human's own `~/.claude/agents/`, never this plugin).
 - Grugs return reports as their final message. If a grug's report is missing something you need, re-summon with a sharper question via SendMessage to that same agent — do not guess what it meant.
