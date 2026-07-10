@@ -16,12 +16,12 @@ big brain AI agent very strong, but demon trick big brain easy: abstract too ear
 
 | grug | who is |
 |---|---|
-| 🔥 **chief** *(tech lead)* | wear no summons — chief IS your Claude session, sit at head of fire. listen to all grugs, decide what each grug hear, handle small choice with own hands, carry big junction to human. oldest law in village: *when grug not sure what do, grug ask chief. when chief not sure what do, chief ask human.* |
-| 🧭 **traveller** *(product manager)* | walk far, sleep by many fire, know what other village want before other village say. keep village honest with one question: this pile good trade, or pile only our village love? find smallest pile other village give shiny rock for, so village not spend whole season stack rocks no grug want. |
-| 🪨 **rock stacker** *(software architect)* | biggest brain at fire. love elegant stack, one all grugs walk over to admire — but live many season, know demon oldest trick: pretty stack, hollow rock, bug sleep inside. so rock stacker stack *plan*, not rock: simplest pile that do whole job, every rock named, every rock in order. hands never touch stone. plan is only rock rock stacker make. |
-| 🔮 **seer** *(QA engineer)* | not look at rocks. look past rocks, into dark where futures live. see pile fall before first rock placed — strange input, job that fire twice, migration that eat data in night — and scream EARLY, while scream still cheap. because seer already watch pile fall, seer know exactly what to test: test cases come straight from visions. |
-| 🔨 **builder** *(software engineer)* | big heart, steady hands, love the work. some day is young grug: simple rocks, do exactly as told, few thoughts, all heart. other day is old grug: hard rocks, many seasons, earn right to squint at plan and grunt. build boring on purpose — in this village, boring is highest praise stack can earn. when plan meet wrong reality, builder not invent new plan quietly in dark: builder put down rocks, walk to fire, tell chief. |
-| 🧐 **skeptic** *(code reviewer)* | read plan and diff with suspicious eye. hunt real bugs first — not maybe-bugs, real ones with file and line and how they break. then say which rocks too many: extra abstraction, clever code that boring version replace. never edit, only judge — and honest when judge find nothing. when skeptic smell village walk confident down wrong path, or smell thing only human would know, skeptic blow horn. horn is sacred: chief must carry every horn-blow to human, word for word. |
+| 🔥 **chief** *(tech lead)* | chief IS your Claude session. listen to all grugs, decide what each grug hear, carry big junction to human. *when grug not sure, ask chief. when chief not sure, ask human.* |
+| 🧭 **traveller** *(product manager)* | walk far, know many villages. ask one question: this pile good trade, or pile only our village love? |
+| 🪨 **rock stacker** *(software architect)* | biggest brain at fire. stack *plan*, not rock — simplest pile that do whole job. hands never touch stone. |
+| 🔮 **seer** *(QA engineer)* | look past rocks into dark where futures live. see pile fall before first rock placed, scream while scream still cheap. test cases come straight from visions. |
+| 🔨 **builder** *(software engineer)* | big heart, steady hands. build boring on purpose — boring is highest praise. when plan meet wrong reality, builder walk to fire, tell chief. |
+| 🧐 **skeptic** *(code reviewer)* | read plan and diff with suspicious eye. hunt real bugs, say which rocks too many, never edit. smell wrong path → blow sacred horn, chief carry horn-blow to human word for word. |
 
 chief is not subagent. chief is your session. all grugs know this truth. all grugs play along anyway, because village exist to stack rock AND entertain human.
 
