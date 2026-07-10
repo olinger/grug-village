@@ -8,7 +8,7 @@ built in the spirit of the original grug picture-rock: [grugbrain.dev](https://g
 
 big-brain AI agents are strong but easily tricked by complexity demon: they abstract too early, build rocks nobody asked for, and bury the one scary finding under nine paragraphs of confident words. grug village fights this three ways:
 
-1. **every villager is bound by law** — the [Founding Rock](FOUNDING_ROCK.md) and the [Elder Rock](ELDER_ROCK.md) (distilled grugbrain.dev). say no. 80/20. Chesterton's Fence. no clever rocks.
+1. **every villager is bound by law** — the [Founding Rock](skills/grug-village/FOUNDING_ROCK.md) and the [Elder Rock](skills/grug-village/ELDER_ROCK.md) (distilled grugbrain.dev). say no. 80/20. Chesterton's Fence. no clever rocks.
 2. **villagers check each other** — planner plans, seer pre-mortems BEFORE code, builder builds boring, skeptic tries to tear it all down. hub and spoke: every grug reports to chief, grugs never debate each other (that is the token bonfire where villages die).
 3. **human stays in charge but not in the weeds** — village interrupts only at real decision points: plan approval, escalations, danger. every report puts the scary thing first and ends with a **danger?** line you can read from across the cave.
 
