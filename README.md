@@ -89,7 +89,9 @@ village grow by wounds, not wishes. when log show same lack twice ("village had 
 /grug-village welcome fire     # re-light anytime — village show current stone and warn before re-carving
 ```
 
-first time you summon village, chief sit you by fire and ask five short things: how many season you stack rocks, which rocks feel like home, which make hands shake, how much explaining you want, how often to poke. answers carved into a private hearth-stone in your own hut (`~/.claude/grug-village-hearth.md`) — never committed, never shared, never read by other humans' villages.
+first time you summon village, chief sit you by fire and ask six short things: how many season you stack rocks, which rocks feel like home, which make hands shake, how much explaining you want, how often to poke, and **which voice village should speak**. answers carved into a private hearth-stone in your own hut (`~/.claude/grug-village-hearth.md`) — never committed, never shared, never read by other humans' villages.
+
+**whimsy not for everyone, and village is good host**: choose plain professional English at the fire (or just say "speak plain" anytime) and village do the exact same work — same laws, same skeptic, same scary-thing-first reports, same closing risk line — in big brain words with zero grug. no shame either direction.
 
 village then serve YOU: skeptic watch extra hard over rocks that make your hands shake (your own eye weakest exactly there), few-season humans get village that teach not just do, every report speak at your chosen depth. stone is words chief pass along, never if-else fork — every grug file stay same for every human.
 
