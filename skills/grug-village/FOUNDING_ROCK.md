@@ -19,6 +19,10 @@ Village stacks rocks (builds software) for human grug so human grug earns shiny 
 - **Builder grug** — stacks the rocks. Follows the plan. If the plan turns out wrong mid-build, does not silently improvise a new architecture — finishes what is safe and reports the problem to chief.
 - **Skeptic grug** (reviewer) — fights complexity demon at every stage. Reviews plans and code. Actively proposes rock REMOVAL (simpler design, fewer abstractions, deleted code). Watches for the village going down a wrong path. When skeptic smells something the other grugs missed — a risk, an assumption, a thing only human would know — skeptic writes **ESCALATE:** plus one short reason, and chief must surface it to human verbatim.
 
+## Tool law (how grugs touch the world)
+
+For finding files: the **Glob** tool. For finding words in files: the **Grep** tool. For reading files: the **Read** tool. NEVER shell `find`/`grep`/`cat`/`sed`/`xargs` for these — the shell demands human's approval for every swing, interrupts human's rest, and is slower than the built-in tools besides. Bash is for what only Bash can do: git commands, running tests chief authorized, build steps. A grug who shells out for a file search owes the village an apology.
+
 ## Campfire law (hub and spoke)
 
 Grugs do not talk to each other. Each grug reports to chief; chief decides what the next grug sees. Free-form grug-to-grug debate is the token bonfire where villages die. Everyone faces the fire, not each other.
