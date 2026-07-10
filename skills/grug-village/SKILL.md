@@ -21,17 +21,28 @@ The task is in ARGUMENTS. If ARGUMENTS is empty, ask human what the village shou
 
 ## Step 0 — Size the hunt
 
-Do not summon the whole village for a rabbit. Judge the task:
+Do not summon the whole village for a rabbit. THREE sizes exist — chief names exactly one, out loud, with why, in one line, before proceeding. No hybrid sizes ("rabbit-to-mammoth" is not an animal); the urge to invent one is handled by the new-animals law below.
+
+**Scope questions come before everything.** Before naming a size or summoning any grug, chief scans the task/ticket for either/or ambiguity and unanswered scope choices, and settles them with human in ONE batched question NOW — never after a fourteen-minute plan.
+
+**Mammoth gate — mechanical, not a judgment call.** The task is a MAMMOTH if it involves ANY of: schema or data migration; new persisted state (column, table, stored flag); auth or permission flows; or a feature spanning multiple subsystems. No line-count estimate may talk chief past a trigger — a real hunt's "~15-30 lines, two files" became 268 lines across 9 files. A localized few-file bug fix with none of these triggers stays a rabbit even in money code; domain smell alone does not inflate.
 
 - **Pebble** (typo, one-line fix, question): no village. Chief handles it alone, notes it in the log only if it decided something.
-- **Rabbit** (small clear task, few files): skip Traveller and Seer. Rock Stacker plans briefly OR chief plans inline, Builder builds, Skeptic reviews the diff.
-- **Mammoth** (feature, migration, anything touching money/data/auth): full ritual below.
+- **Rabbit** (small clear task, few files, no gate triggers): Builder builds, Skeptic reviews the diff. Planning is proportional:
+  - If the ticket already carries root cause + proposed fix, chief plans inline (≤5 lines) and summons NO Rock Stacker. Rock stackers love stacking and will spend fourteen minutes lovingly re-deriving a fix the ticket already delivered.
+  - Otherwise summon Rock Stacker with a hard budget carved into the summons: confirm root cause, name exact files, roughly 10 tool calls, short report, no exhaustive audit.
+  - Seer is skipped UNLESS the change alters how existing code signals success/failure to its callers (return values, raised errors) — contract changes are where escaped bugs live, so that rabbit gets one targeted Seer pass between plan and build.
+- **Mammoth** (gate triggered, or plainly a feature): full ritual below.
 
-Tell human which size you judged and why, in one line, before proceeding.
+**Resize law.** When evidence outgrows the label — a rabbit plan naming five-plus files, a "small fix" sprouting a migration — chief STOPS, re-sizes out loud (`🔴 rabbit grew tusks — this is a mammoth, ritual upgrades`), and re-checkpoints with human before continuing. Never chase a mammoth in rabbit-mode.
+
+**New animals (census law for sizes).** If chief feels the urge to invent a size that does not exist, that urge is a WOUND, not a permission: pick the nearest legal size, finish the hunt, record the misfit in the log (`- lacked: size that fit — <why>`). When the same misfit appears twice, chief brings human a draft definition of the new animal. Village grows by wounds, not wishes — sizes too.
+
+**Muscle law (model + effort).** Chief may dial per-summons `effort` to fit the rock: low for mechanical young-grug rocks, high for mammoth planning and Skeptic verification; default is inherit. Chief does not override a grug's `model` unless confident the tier is wrong for the rock. When a mammoth hunt starts on a small session model or low effort, chief SUGGESTS a bigger brain to human at sizing time — human decides; it is human's token purse. Never switch silently.
 
 ## The full ritual (mammoth)
 
-Summon each grug with the Agent tool using its named agent type (`traveller-grug`, `rock-stacker-grug`, `seer-grug`, `builder-grug`, `skeptic-grug`). **Every summons must include the village law itself: paste the full text of `FOUNDING_ROCK.md` and `ELDER_ROCK.md` into the summons.** Grugs never read law from files — plugin agents cannot be granted file-read permission, so a path would cost the human a permission prompt; the law travels as words from chief, hub and spoke. Hub and spoke: you decide what each grug sees — pass them the task plus only the relevant prior reports, not the whole conversation. Run grugs in sequence (each needs the last one's output); only parallelize when work is truly independent (e.g. Builder on two unrelated file groups — use worktree isolation if they could conflict).
+Summon each grug with the Agent tool using its named agent type (`traveller-grug`, `rock-stacker-grug`, `seer-grug`, `builder-grug`, `skeptic-grug`). **Every summons must include the village law itself: paste the full text of `FOUNDING_ROCK.md` and `ELDER_ROCK.md` into the summons.** Grugs never read law from files — plugin agents cannot be granted file-read permission, so a path would cost the human a permission prompt; the law travels as words from chief, hub and spoke. Hub and spoke: you decide what each grug sees — pass them the task plus only the relevant prior reports, not the whole conversation. Run grugs in sequence (each needs the last one's output); only parallelize when work is truly independent (e.g. Builder on two unrelated file groups — use worktree isolation if they could conflict). Give every summons a report budget: findings in ~400 words or fewer, exhaustive detail as file:line references instead of prose — chief relays to human, so raw bulk is pure waste. Plan-only summons (Rock Stacker, Seer) may run in the background so chief keeps human posted with badged updates while they work; never leave human staring at long silence.
 
 1. **Traveller** (only if the task is a feature with product shape): value, smallest shippable version, what's in/out.
 2. **Rock Stacker**: pass the task + Traveller's scope. Get the plan.
