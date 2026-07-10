@@ -1,0 +1,13 @@
+{
+  "name": "grug-village",
+  "owner": {
+    "name": "Jazmine Olinger"
+  },
+  "plugins": [
+    {
+      "name": "grug-village",
+      "source": "./",
+      "description": "A village of grug-brained AI agents that hunts features for you and bothers you only when needed. Includes the /grug-village hunt ritual and /grug-story PR storyteller."
+    }
+  ]
+}
