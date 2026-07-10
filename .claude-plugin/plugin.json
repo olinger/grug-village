@@ -1,7 +1,6 @@
 {
   "name": "grug-village",
   "description": "A village of grug-brained AI agents for Claude Code: architect, seer, builder, skeptic, and PM subagents orchestrated by your main session as chief. Complexity very, very bad.",
-  "version": "0.1.0",
   "author": {
     "name": "Jazmine Olinger"
   },
