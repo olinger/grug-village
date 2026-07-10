@@ -1,43 +1,43 @@
 # 🪨 grug village
 
-village of grug-brained AI agents for [Claude Code](https://code.claude.com). village does the work. village bothers human only when needed. human sits by fire, shiny rocks arrive.
+village of grug-brained AI agents for [Claude Code](https://code.claude.com). village do the work. village bother human only when needed. human sit by fire, shiny rocks arrive.
 
-built in the spirit of the original grug picture-rock: [grugbrain.dev](https://grugbrain.dev/). eternal enemy is complexity spirit demon. **complexity very, very bad.**
+built in spirit of original grug picture-rock: [grugbrain.dev](https://grugbrain.dev/). eternal enemy is complexity spirit demon. **complexity very, very bad.**
 
 ## why village exist
 
-big-brain AI agents are strong but easily tricked by complexity demon: they abstract too early, build rocks nobody asked for, and bury the one scary finding under nine paragraphs of confident words. grug village fights this three ways:
+big brain AI agent very strong, but demon trick big brain easy: abstract too early, build rocks nobody ask for, bury one scary finding under nine paragraph of confident words. grug village fight demon three ways:
 
-1. **every villager is bound by law** — the [Founding Rock](skills/grug-village/FOUNDING_ROCK.md) and the [Elder Rock](skills/grug-village/ELDER_ROCK.md) (distilled grugbrain.dev). say no. 80/20. Chesterton's Fence. no clever rocks.
-2. **villagers check each other** — planner plans, seer pre-mortems BEFORE code, builder builds boring, skeptic tries to tear it all down. hub and spoke: every grug reports to chief, grugs never debate each other (that is the token bonfire where villages die).
-3. **human stays chief-of-chiefs without standing in the mud** — village pokes human only at true junctions: plan blessing, horn blows, danger. every report puts the scary thing first and ends with a **danger?** line human can read from across the cave.
+1. **every villager bound by law** — the [Founding Rock](skills/grug-village/FOUNDING_ROCK.md) and the [Elder Rock](skills/grug-village/ELDER_ROCK.md) (distilled grugbrain.dev). say no. 80/20. Chesterton Fence. no clever rocks.
+2. **villagers check each other** — planner plan, seer scream BEFORE code exist, builder build boring, skeptic try tear it all down. hub and spoke: every grug report to chief, grugs never debate each other (that is token bonfire where villages die).
+3. **human stay chief-of-chiefs without stand in mud** — village poke human only at true junction: bless plan, horn blow, danger. every report put scary thing first and end with **danger?** line human can read from across cave.
 
 ## the villagers
 
 | grug | who is |
 |---|---|
-| 🔥 **chief** | wear no summons — chief IS your Claude session, sit at head of fire. listen to all grugs, decide what each grug hear, handle small choice with own hands, carry big junction to human. oldest law in village: *when grug not sure what do, grug ask chief. when chief not sure what do, chief ask human.* |
-| 🧭 **traveller** | walk far, sleep by many fire, know what other village want before other village say. keep village honest with one question: this pile good trade, or pile only our village love? find smallest pile other village give shiny rock for, so village not spend whole season stack rocks no grug want. |
-| 🪨 **rock stacker** | biggest brain at fire. love elegant stack, one all grugs walk over to admire — but live many season, know demon oldest trick: pretty stack, hollow rock, bug sleep inside. so rock stacker stack *plan*, not rock: simplest pile that do whole job, every rock named, every rock in order. hands never touch stone. plan is only rock rock stacker make. |
-| 🔮 **seer** | not look at rocks. look past rocks, into dark where futures live. see pile fall before first rock placed — strange input, job that fire twice, migration that eat data in night — and scream EARLY, while scream still cheap. because seer already watch pile fall, seer know exactly what to test: test cases come straight from visions. |
-| 🔨 **builder** | big heart, steady hands, love the work. some day is young grug: simple rocks, do exactly as told, few thoughts, all heart. other day is old grug: hard rocks, many seasons, earn right to squint at plan and grunt. build boring on purpose — in this village, boring is highest praise stack can earn. when plan meet wrong reality, builder not invent new plan quietly in dark: builder put down rocks, walk to fire, tell chief. |
-| 🧐 **skeptic** | one grug, three spirit inside. shaman spirit smell complexity demon through cave wall, fight demon at every stage. rock remover spirit see when big brain stack three rocks where one rock do, say which two go. watcher spirit sit little apart from fire, always awake — when village walk confident down wrong path, watcher blow horn so human hear. horn is sacred: chief must carry every horn-blow to human, word for word. |
+| 🔥 **chief** *(tech lead)* | wear no summons — chief IS your Claude session, sit at head of fire. listen to all grugs, decide what each grug hear, handle small choice with own hands, carry big junction to human. oldest law in village: *when grug not sure what do, grug ask chief. when chief not sure what do, chief ask human.* |
+| 🧭 **traveller** *(product manager)* | walk far, sleep by many fire, know what other village want before other village say. keep village honest with one question: this pile good trade, or pile only our village love? find smallest pile other village give shiny rock for, so village not spend whole season stack rocks no grug want. |
+| 🪨 **rock stacker** *(software architect)* | biggest brain at fire. love elegant stack, one all grugs walk over to admire — but live many season, know demon oldest trick: pretty stack, hollow rock, bug sleep inside. so rock stacker stack *plan*, not rock: simplest pile that do whole job, every rock named, every rock in order. hands never touch stone. plan is only rock rock stacker make. |
+| 🔮 **seer** *(QA engineer)* | not look at rocks. look past rocks, into dark where futures live. see pile fall before first rock placed — strange input, job that fire twice, migration that eat data in night — and scream EARLY, while scream still cheap. because seer already watch pile fall, seer know exactly what to test: test cases come straight from visions. |
+| 🔨 **builder** *(software engineer)* | big heart, steady hands, love the work. some day is young grug: simple rocks, do exactly as told, few thoughts, all heart. other day is old grug: hard rocks, many seasons, earn right to squint at plan and grunt. build boring on purpose — in this village, boring is highest praise stack can earn. when plan meet wrong reality, builder not invent new plan quietly in dark: builder put down rocks, walk to fire, tell chief. |
+| 🧐 **skeptic** *(code reviewer)* | read plan and diff with suspicious eye. hunt real bugs first — not maybe-bugs, real ones with file and line and how they break. then say which rocks too many: extra abstraction, clever code that boring version replace. never edit, only judge — and honest when judge find nothing. when skeptic smell village walk confident down wrong path, or smell thing only human would know, skeptic blow horn. horn is sacred: chief must carry every horn-blow to human, word for word. |
 
-chief is not a subagent. chief is your session. all grugs know this truth. all grugs play along anyway, because village exists to stack rock AND entertain human.
+chief is not subagent. chief is your session. all grugs know this truth. all grugs play along anyway, because village exist to stack rock AND entertain human.
 
-## how hunt works
+## how hunt work
 
 ```
 /grug-village <what you want, in your own lazy words>
 ```
 
-chief sizes the hunt first, so a typo does not summon six grugs:
+chief size hunt first, so typo not summon six grugs:
 
 - **pebble** — chief alone (typo, one-liner, question)
 - **rabbit** — plan → build → review (small clear task)
-- **mammoth** — full ritual: traveller → rock stacker → **you approve plan** → seer pre-mortem → builder → skeptic → fix loop → report
+- **mammoth** — full ritual: traveller → rock stacker → **you bless plan** → seer scream → builder → skeptic → fix loop → report
 
-then go drink coffee. village pokes you only for: blessing the plan, horn blows (a grug smelled something only human would know), scary irreversible acts (push, migrate, delete), and the final report. ask "what is going on?" anytime for story time from the `VILLAGE_LOG.md` the village keeps at your repo root (gitignore it, or commit it as shared team memory — your campfire's call).
+then go drink coffee. village poke you only for: bless plan, horn blow (grug smell something only human would know), scary irreversible act (push, migrate, delete), and final report. ask "what is going on?" anytime — chief give story time from `VILLAGE_LOG.md` village keep at your repo root (gitignore it, or commit as shared tribe memory — your campfire call).
 
 ## story time on pull requests
 
@@ -46,7 +46,7 @@ then go drink coffee. village pokes you only for: blessing the plan, horn blows 
 /grug-story 123        # or name the PR
 ```
 
-storyteller grug reads the PR and drafts a short village tale of the change — accurate first, funny second — for teammates to read and smile. **you approve the exact text before anything is posted** (as a separate comment; the serious PR description is never touched). purely opt-in, per PR, by running the command.
+storyteller grug read PR and draft short village tale of the change — accurate first, funny second — for teammates to read and smile. **you approve exact words before anything posted** (separate comment; serious PR description never touched). opt-in per PR, by run command.
 
 ## setup
 
@@ -55,11 +55,11 @@ storyteller grug reads the PR and drafts a short village tale of the change — 
 /plugin install grug-village@grug-village
 ```
 
-restart Claude Code (or start a new session). village is awake in every repo. that is the whole setup.
+restart Claude Code (or start new session). village awake in every repo. that is whole setup.
 
-### sharing with your team (the signpost law)
+### share with your team (the signpost law)
 
-to make the village discoverable to teammates without forcing it on anyone, add ONLY a marketplace signpost to your repo's checked-in `.claude/settings.json`:
+to make village discoverable to teammates without force on anyone, add ONLY marketplace signpost to your repo checked-in `.claude/settings.json`:
 
 ```json
 {
@@ -71,27 +71,27 @@ to make the village discoverable to teammates without forcing it on anyone, add 
 }
 ```
 
-do **not** add an `enabledPlugins` entry — that force-installs whimsy on every teammate, and forced whimsy breeds village enemies. with the signpost, the village appears in everyone's `/plugin` Discover tab and each human opts in with one install command. reserve `enabledPlugins` for a team that voted yes at campfire.
+do **not** add `enabledPlugins` entry — that force-install whimsy on every teammate, and forced whimsy breed village enemies. with signpost, village appear in everyone's `/plugin` Discover tab and each human opt in with one install command. save `enabledPlugins` for team that vote yes at campfire.
 
 ### Claude Code on the web
 
-cloud sessions never load your laptop's `~/.claude/`, so the plugin is the road: install from a web session with the same two commands above (needs your GitHub auth for private forks; public repo needs nothing). `/grug-story` works in cloud sessions too — the built-in GitHub tools post comments where the `gh` CLI is absent.
+cloud session never load your laptop `~/.claude/`, so plugin is the road: install from web session with same two commands above (private fork need your GitHub auth; public repo need nothing). `/grug-story` work in cloud sessions too — built-in GitHub tools post comment where `gh` CLI is absent.
 
-## how village grows (census law)
+## how village grow (census law)
 
-village grows by wounds, not wishes. when the log shows the same lack twice ("village had no database grug"), chief brings you a complete draft agent file and asks. you always decide. recruits are carved into **your own** `~/.claude/agents/` with unclaimed names — the plugin's core grugs belong to every village and are never edited locally.
+village grow by wounds, not wishes. when log show same lack twice ("village had no database grug"), chief bring you complete draft agent file and ask. you always decide. recruit carved into **your own** `~/.claude/agents/` with unclaimed name — plugin's core grugs belong to every village and never edited locally.
 
 ## roadmap (rocks not yet stacked, on purpose)
 
-- **welcome fire + hearth-stone** — when new human first summons village, chief sits them by the fire and asks: how many seasons stacking rocks? which rocks feel like home, which make hands shake? how much explaining wanted, how often to poke? answers get carved into a personal hearth-stone the village reads before serving that human. skeptic watches extra-hard over the rocks that make your hands shake (your own eye is weakest there); humans with few seasons get a village that teaches, not just does. the stone is words chief passes along, never if-else forks — every grug file stays identical for every human.
-- **two logs** — split rock-facts (repo log, shareable with tribe) from human-facts (private chief's log that follows human across all repos).
+- **welcome fire + hearth-stone** — when new human first summon village, chief sit them by fire and ask: how many season stack rocks? which rocks feel like home, which make hands shake? how much explain wanted, how often poke? answers carved into personal hearth-stone village read before serve that human. skeptic watch extra hard over rocks that make your hands shake (your own eye weakest there); human with few seasons get village that teach, not just do. stone is words chief pass along, never if-else fork — every grug file stay same for every human.
+- **two logs** — split rock-facts (repo log, share with tribe) from human-facts (private chief log that follow human across all repos).
 
-these wait until real hunts prove them needed. village grows by wounds, not wishes — that law applies to the village itself.
+these wait until real hunts prove them needed. village grow by wounds, not wishes — law apply to village itself too.
 
 ## the fine print
 
-- grug voice is for talking to YOU. code, commits, PR bodies, test names — anything a coworker reads — stays professional. the one sanctioned exception is the opt-in `/grug-story` comment.
-- your project's CLAUDE.md always beats village law for code matters.
+- grug voice is for talk to YOU. code, commits, PR bodies, test names — anything coworker read — stay professional. one sanctioned exception: opt-in `/grug-story` comment.
+- your project CLAUDE.md always beat village law for code matters.
 - MIT licensed. take fire from this fire.
 
 *complexity very, very bad.*
