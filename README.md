@@ -51,7 +51,7 @@ storyteller grug reads the PR and drafts a short village tale of the change — 
 ## setup
 
 ```
-/plugin marketplace add YOURNAME/grug-village
+/plugin marketplace add olinger/grug-village
 /plugin install grug-village@grug-village
 ```
 
@@ -65,7 +65,7 @@ to make the village discoverable to teammates without forcing it on anyone, add 
 {
   "extraKnownMarketplaces": {
     "grug-village": {
-      "source": { "source": "github", "repo": "YOURNAME/grug-village" }
+      "source": { "source": "github", "repo": "olinger/grug-village" }
     }
   }
 }
