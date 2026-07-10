@@ -82,10 +82,22 @@ cloud session never load your laptop `~/.claude/`, so plugin is the road: instal
 
 village grow by wounds, not wishes. when log show same lack twice ("village had no database grug"), chief bring you complete draft agent file and ask. you always decide. recruit carved into **your own** `~/.claude/agents/` with unclaimed name — plugin's core grugs belong to every village and never edited locally.
 
+## the welcome fire (village learn its human)
+
+```
+/grug-village <any task>       # first ever summons light the fire by itself
+/grug-village welcome fire     # re-light anytime — village show current stone and warn before re-carving
+```
+
+first time you summon village, chief sit you by fire and ask five short things: how many season you stack rocks, which rocks feel like home, which make hands shake, how much explaining you want, how often to poke. answers carved into a private hearth-stone in your own hut (`~/.claude/grug-village-hearth.md`) — never committed, never shared, never read by other humans' villages.
+
+village then serve YOU: skeptic watch extra hard over rocks that make your hands shake (your own eye weakest exactly there), few-season humans get village that teach not just do, every report speak at your chosen depth. stone is words chief pass along, never if-else fork — every grug file stay same for every human.
+
+humans grow, so fire can be re-lit: summon village with "welcome fire" anytime to re-carve. village show current stone and warn first — re-carving replace old answers, no take-backs.
+
 ## roadmap (rocks not yet stacked, on purpose)
 
-- **welcome fire + hearth-stone** — when new human first summon village, chief sit them by fire and ask: how many season stack rocks? which rocks feel like home, which make hands shake? how much explain wanted, how often poke? answers carved into personal hearth-stone village read before serve that human. skeptic watch extra hard over rocks that make your hands shake (your own eye weakest there); human with few seasons get village that teach, not just do. stone is words chief pass along, never if-else fork — every grug file stay same for every human.
-- **two logs** — split rock-facts (repo log, share with tribe) from human-facts (private chief log that follow human across all repos).
+- **two logs** — split rock-facts (repo log, share with tribe) from human-facts (private chief log that follow human across all repos). hearth-stone is first pebble of this pile.
 
 these wait until real hunts prove them needed. village grow by wounds, not wishes — law apply to village itself too.
 
