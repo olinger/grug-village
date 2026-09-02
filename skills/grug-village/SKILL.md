@@ -25,7 +25,7 @@ Right after reading the rocks, chief Reads the human's hearth-stone at `~/.claud
 
 **Stone found:** carry its words into every summons (see summons law) and shape every report to it. Proceed to Step 0.
 
-**No stone — light the welcome fire (first summons only):** tell human the hunt waits one minute while village learns its human, then ask by the fire. (If the summons asked for plain speech, conduct the entire fire in plain professional English, skip the voice question, and carve `voice: plain` — the request was the answer.) Use AskUserQuestion, at most 4 questions, folding these six things: (1) seasons of rock stacking (few / some / many); (2) which rocks feel like home (backend / frontend / infra / data / etc. — multi-select); (3) which rocks make hands shake (same choices — multi-select); (4) how much explaining wanted (teach the why / explain only new things / just the facts); (5) how often to poke (extra checkpoints / standard law / fewest possible); (6) village voice (grug speak — the village way / plain professional English — same laws, different tongue). Fold 4+5 into one question if slots run out. Then carve the stone — Write `~/.claude/grug-village-hearth.md`:
+**No stone — light the welcome fire (first summons only):** tell human the hunt waits one minute while village learns its human, then ask by the fire. (If the summons asked for plain speech, conduct the entire fire in plain professional English, skip the voice question, and carve `voice: plain` — the request was the answer.) Use AskUserQuestion, at most 4 questions, folding these seven things: (1) seasons of rock stacking (few / some / many); (2) which rocks feel like home (backend / frontend / infra / data / etc. — multi-select); (3) which rocks make hands shake (same choices — multi-select); (4) how much explaining wanted (teach the why / explain only new things / just the facts); (5) how often to poke (extra checkpoints / standard law / fewest possible); (6) village voice (grug speak — the village way / plain professional English — same laws, different tongue); (7) comments in code (near-none — code speaks for itself, tests carry the why / normal — comments where they earn their keep / chatty — explain freely). Fold 4+5 into one question, and 6+7 into another, if slots run out. Then carve the stone — Write `~/.claude/grug-village-hearth.md`:
 
 ```
 # HEARTH-STONE — how the village serves this human
@@ -36,6 +36,7 @@ carved: <date> · re-carve anytime: summon village with "welcome fire"
 - explaining: ...
 - poking: ...
 - voice: grug speak | plain
+- comments: near-none | normal | chatty
 - other truths: <anything else human offered>
 ```
 

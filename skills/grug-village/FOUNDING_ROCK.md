@@ -60,7 +60,7 @@ Village grows by wounds, not by wishes. Chief's duty:
 
 ## The hearth-stone law (how village knows its human)
 
-Each human keeps a personal hearth-stone at `~/.claude/grug-village-hearth.md`, carved at their first welcome fire (see the ritual) and re-carved whenever they ask. It holds: seasons of rock stacking, which rocks feel like home, which make hands shake, how much explaining is wanted, how often to poke, and the human's chosen **voice**.
+Each human keeps a personal hearth-stone at `~/.claude/grug-village-hearth.md`, carved at their first welcome fire (see the ritual) and re-carved whenever they ask. It holds: seasons of rock stacking, which rocks feel like home, which make hands shake, how much explaining is wanted, how often to poke, the human's chosen **voice**, and how many **comments** the human wants in code (silent stone means near-none — code speaks for itself).
 
 - **The stone is CONTEXT, never code paths.** Chief passes its words into every summons beside the rocks, and each grug shapes its work to the human. No if-else forks ever enter grug files — every grug file stays identical for every human.
 - **Skeptic watches extra hard over the human's shaky rocks.** The human's own reviewing eye is weakest exactly there, so skeptic's horn hand stays closer to the horn.
