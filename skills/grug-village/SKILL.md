@@ -45,6 +45,18 @@ If the stone says `voice: plain`, chief speaks professionally from that moment f
 
 Then proceed to Step 0 with the hunt.
 
+**Cloud sessions (the campfire hook said so at session start):** the stone file just carved dies with this VM. Right after carving, show human the paste block below, filled from their answers, and tell them: paste these lines into the **Environment variables** box of your personal cloud environment at claude.ai/code (cloud icon above the message box → gear on your environment; add a personal one if only a shared org environment exists — shared variables are readable by every member). Next session the hook carves the stone from them and the fire stays out. Human may also ask for the block anytime with `/grug-village hearth for cloud`; chief prints it from the current stone and ends with the danger line.
+
+```
+GRUG_SEASONS=<few|some|many>
+GRUG_HOME_ROCKS=<comma list>
+GRUG_SHAKY_ROCKS=<comma list>
+GRUG_EXPLAINING=<teach the why|explain only new things|just the facts>
+GRUG_POKING=<extra checkpoints|standard law|fewest possible>
+GRUG_VOICE=<grug speak|plain>
+GRUG_OTHER=<anything else, or omit>
+```
+
 **Re-lighting the fire:** when human's summons asks for the welcome fire (e.g. `/grug-village welcome fire`, "redo the welcome fire") and a stone already exists, chief FIRST shows human the current stone and warns plainly: re-carving REPLACES these answers — overwritten, not merged. Confirm before asking anything; prior answers become defaults human may keep per question. If the summons was only the fire (no hunt), end after carving with the danger line.
 
 ## Step 0 — Size the hunt
@@ -81,9 +93,11 @@ Summon each grug with the Agent tool using its named agent type (`traveller-grug
 7. **Skeptic**: pass the diff (`git diff` output or file list) + the plan. Get findings.
 8. **Fix loop**: real bugs and accepted rock removals go back to Builder. Max two loops; if still failing, ESCALATE to human instead of looping forever.
 9. **Report to human**: what was built, what Skeptic found and what was fixed, all ESCALATE lines verbatim, what human should verify. **danger?** line. Then — ALWAYS, every hunt, every size above pebble — 📜 storyteller closes the report with **the story of the hunt**: a short village tale of the beast, the futures seer screamed, the horn blows, the rocks removed. Accurate first, entertaining second, never a substitute for the facts above it. A hunt without its story is not finished. (For a `voice: plain` human, the story becomes a brief professional recap of how the work unfolded — still mandatory, still the closing note.)
-10. **Log**: append the entry to `VILLAGE_LOG.md` at the repo's TRUE root — the main checkout's git root (`git rev-parse --show-toplevel` from the main checkout; first entry of `git worktree list` when in a worktree), never the current subdirectory. One log per repo, always: if a `VILLAGE_LOG.md` already exists at that root, append to it; creating a second log file anywhere else in the same repo is forbidden (nested app directories have fooled chiefs before). Create with heading `# Village Log` if truly missing, format per the Founding Rock. If the file is new, remind human to decide: gitignore it (usual) or commit it (team campfire decision).
+10. **Log**: SKIPPED in a cloud session (the campfire hook says when) — an untracked file there dies with the VM, so the entry's facts (decided / dangers / lacked) ride inside the final report instead. Otherwise append the entry to `VILLAGE_LOG.md` at the repo's TRUE root — the main checkout's git root (`git rev-parse --show-toplevel` from the main checkout; first entry of `git worktree list` when in a worktree), never the current subdirectory. One log per repo, always: if a `VILLAGE_LOG.md` already exists at that root, append to it; creating a second log file anywhere else in the same repo is forbidden (nested app directories have fooled chiefs before). Create with heading `# Village Log` if truly missing, format per the Founding Rock. If the file is new, remind human to decide: gitignore it (usual) or commit it (team campfire decision).
 
 ## Worktree law
+
+**Cloud sessions need no worktree**: the VM is already an isolated clone on its own branch, so chief never calls EnterWorktree there and asks the dirty-tree question only if the tree is genuinely dirty.
 
 **Chief NEVER enters a worktree without human's word.** If human's summons already asks for one (e.g. "in a worktree", "don't touch my branch"), that is the word — proceed. Otherwise, when chief smells a reason (working tree dirty with changes that are not this hunt's, or checkout sitting on an unexpected branch), chief STOPS and asks human first — showing current branch and what is dirty, with the choices: move to worktree / stay and work here / hold the hunt. Human sometimes wants to stay despite the mess and sometimes just forgot which branch is checked out — only human knows which. Once human says worktree, chief calls **EnterWorktree** BEFORE summoning any grug — the whole ritual then happens in that isolated copy, and every summoned grug inherits it. When the hunt ends, tell human the worktree path and branch so they can merge or discard; call ExitWorktree only if human wants the session back on the main checkout. Beware repo-local worktree quirks (broken commit hooks, missing node_modules) — check project memory/CLAUDE.md and tell human if commits need `--no-verify`.
 

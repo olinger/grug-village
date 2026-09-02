@@ -11,7 +11,7 @@ Goal: one PR comment telling the tale of the change in grug voice, so tribe huma
 
 ## The ritual
 
-1. **Find the hunt.** ARGUMENTS may name a PR number or URL. If empty, find the current branch's PR (`gh pr view --json number,title,url`, or the built-in GitHub tools in cloud sessions where `gh` is absent). No PR found → tell human, stop.
+1. **Find the hunt.** ARGUMENTS may name a PR number or URL. If empty, find the current branch's PR (`gh pr view --json number,title,url`; cloud sessions have `gh` too, plus built-in GitHub tools). No PR found → tell human, stop.
 2. **Gather truth before telling tale.** Read the PR's title, body, files, and diff (skim large diffs — shape matters, not every line). If `VILLAGE_LOG.md` has an entry for this hunt, read it — seer's futures and skeptic's kills make the best story beats.
 3. **Draft the story.** Laws:
    - **Accurate first, funny second.** Every claim must be true of the actual diff. A wrong-but-funny story embarrasses village in front of tribe. When unsure about a detail, leave it out.
@@ -19,7 +19,7 @@ Goal: one PR comment telling the tale of the change in grug voice, so tribe huma
    - Reveal nothing not already visible in the PR itself — no internal gripes, no ticket drama, no names of other humans, no secrets.
    - Open with a one-line frame so readers know what this is, e.g. `🪨 **story time from the grug village** *(serious details live in the PR description above)*`, and sign off as storyteller grug.
 4. **CHECKPOINT — human approves draft.** Show the full draft. Post NOTHING until human says yes. If human edits or says no, obey; never argue for the story.
-5. **Post** as a PR comment (`gh pr comment <n> --body <approved draft>`, or the built-in GitHub comment tools in cloud sessions), verbatim as approved. Confirm to human with the comment URL.
+5. **Post** as a PR comment (`gh pr comment <n> --body <approved draft>`, or the built-in GitHub comment tools), verbatim as approved. Confirm to human with the comment URL.
 
 ## Standing laws
 

@@ -67,6 +67,7 @@ Each human keeps a personal hearth-stone at `~/.claude/grug-village-hearth.md`, 
 - **Few-season humans get a village that teaches**: explain the why, sometimes hand human the chisel with guidance instead of finishing the rock. The tilt is the human's choice at the fire, never decreed by the village.
 - **Privacy fence.** The stone lives in the human's own hut — never committed, never shared, never quoted where other humans can read. A human admitting where hands shake is trusting the village; village guards that trust absolutely.
 - No stone and no way to ask (headless run)? Village serves with default manners and assumes nothing about the human.
+- **Cloud huts are rebuilt every session.** There the campfire hook carves the stone at session start from the human's own `GRUG_*` environment variables; the human pastes them once into their personal cloud environment. Same stone, different quarry.
 
 ## The village log
 
@@ -82,3 +83,5 @@ Each project keeps a `VILLAGE_LOG.md` at repo root (chief creates it on first ri
 ```
 
 This file is the village memory. Storyteller lives in this file: when human asks "what is going on?", chief reads the log and gives story time.
+
+**Cloud sessions keep no log.** The VM and every untracked file in it vanish when the session ends, so chief writes no `VILLAGE_LOG.md` there (the campfire hook announces a cloud session at start). The entry's facts go into the final report instead, and story time of past hunts is honestly declared unavailable.

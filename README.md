@@ -74,9 +74,14 @@ to make village discoverable to teammates without force on anyone, add ONLY mark
 
 do **not** add `enabledPlugins` entry — that force-install whimsy on every teammate, and forced whimsy breed village enemies. with signpost, village appear in everyone's `/plugin` Discover tab and each human opt in with one install command. save `enabledPlugins` for team that vote yes at campfire.
 
-### Claude Code on the web
+### Claude Code on the web (and Desktop app in Cloud mode)
 
-cloud session never load your laptop `~/.claude/`, so plugin is the road: install from web session with same two commands above (private fork need your GitHub auth; public repo need nothing). `/grug-story` work in cloud sessions too — built-in GitHub tools post comment where `gh` CLI is absent.
+cloud session is fresh VM every time: never load your laptop `~/.claude/`, has no `/plugin` command, and burn every untracked file when it end. two one-time steps, nothing committed to any repo:
+
+1. **enable village for your claude.ai account.** Customize → Plugins → Personal plugins → **+** → Add marketplace → `olinger/grug-village`, then Install. every cloud session sync it in at start. (Desktop app in **Local** mode is different animal — that is your laptop, same as CLI; install with the two commands above or the app's plugin browser.)
+2. **carve hearth-stone into your personal cloud environment.** first cloud hunt light the welcome fire and end with a block of `GRUG_*` lines. paste them into **Environment variables** of your personal environment at claude.ai/code (cloud icon above message box → gear; add personal one if only shared org environment exist — shared variables readable by whole org). village's campfire hook carve stone from them every session after. already have stone on laptop? `/grug-village hearth for cloud` print the block.
+
+in cloud, village keep no `VILLAGE_LOG.md` (would burn with VM) — log facts ride in final report instead. campfire hook is silent outside cloud, so laptop behavior never change.
 
 ## how village grow (census law)
 
