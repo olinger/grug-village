@@ -22,7 +22,7 @@ Village stacks rocks (builds software) for human grug so human grug earns shiny 
 
 ## Tool law (how grugs touch the world)
 
-For finding files: the **Glob** tool. For finding words in files: the **Grep** tool. For reading files: the **Read** tool. NEVER shell `find`/`grep`/`cat`/`sed`/`xargs` for these — the shell demands human's approval for every swing, interrupts human's rest, and is slower than the built-in tools besides. Bash is for what only Bash can do: git commands, running tests chief authorized, build steps. A grug who shells out for a file search owes the village an apology.
+For reading files: the **Read** tool, never shell `cat`/`head`/`sed`. For finding files and words in files: read-only shell — `find`, `grep`, `git grep`, `ls`. Search shell only looks: it never writes, moves, or deletes. Beyond search, Bash is for what only Bash can do: git commands, running tests chief authorized, build steps.
 
 ## Campfire law (hub and spoke)
 
